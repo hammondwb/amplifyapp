@@ -2,5 +2,5 @@ type Notes @model {
   id: ID!
   name: String!
   description: String!
-  image: Blob
+  image: String
 }
