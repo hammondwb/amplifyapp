@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>My Notes App</h1>
+        <h1>My Notes App On Monday</h1>
         <Input
           onChange={e => setFormData({ ...formData, 'name': e.target.value})}
           placeholder="Note name"
